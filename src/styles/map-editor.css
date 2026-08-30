@@ -1,0 +1,35 @@
+.map-editor {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.map-svg {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.county {
+  transition: opacity 0.2s ease;
+}
+
+.county:hover {
+  opacity: 0.8 !important;
+}
+
+.map-info {
+  padding: 12px 16px;
+  background: var(--light-bg);
+  border-top: 1px solid var(--border-color);
+  font-size: 14px;
+  color: var(--text-color);
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.map-info p {
+  margin: 0;
+}
